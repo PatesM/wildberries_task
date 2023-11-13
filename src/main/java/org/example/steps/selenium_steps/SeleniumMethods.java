@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 public class SeleniumMethods {
 
-    WebDriver driver;
+    private final WebDriver driver;
 
     public SeleniumMethods(String CHROME_WEB_DRIVER_KEY, String CHROME_WEB_DRIVER_VALUE,
         String WB_MAIN_PAGE_URL) {
